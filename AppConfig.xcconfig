@@ -1,0 +1,21 @@
+//
+//  AppConfig.xcconfig
+//  Weather
+//
+//  Created by Sabri Belguerma on 22/08/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// WEATHER API
+CURRENT_WEATHER_URL = https:/$()/community-open-weather-map.p.rapidapi.com/weather
+FORECAST_WEATHER_URL = https:/$()/community-open-weather-map.p.rapidapi.com/forecast
+FORECAST_DAILY_WEATHER_URL = https:/$()/community-open-weather-map.p.rapidapi.com/forecast/daily
+
+// CREDENTIALS
+API_KEY = YOUR_API_KEY
+
+// PLACES API
+PLACES_API_KEY = YOUR_PLACES_API_KEY
+PLACES_API_URL = https:/$()/maps.googleapis.com/maps/api/place/autocomplete/json
